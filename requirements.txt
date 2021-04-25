@@ -1,6 +1,6 @@
-numpy
-imageio
-Pillow
+numpy==1.18.1
+imageio==2.6.1
+Pillow==7.1.1
 torch==1.8.1
-torchvision
-pytorch-msssim
+torchvision==0.6.1
+pytorch==.4
