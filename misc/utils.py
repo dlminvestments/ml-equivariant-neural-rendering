@@ -168,7 +168,7 @@ def pretty_print_layers_info(model, title):
             min_feat_size = feat_size
     print("---------------------------------------------------------------------------------------------")
     # Only print model info if model is not empty
-    if len(layers_info):
+    if layers_info:
         print("{: <12} \t {: <14} \t {: <14} \t {: <10} \t {: <10}".format("Total",
                                                                 str(layers_info[0]["in_shape"]),
                                                                 str(layers_info[-1]["out_shape"]),
