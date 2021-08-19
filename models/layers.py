@@ -149,5 +149,4 @@ def num_channels_to_num_groups(num_channels):
         return 8
     if num_channels < 256:
         return 16
-    else:
-        return 32
+    return 32
